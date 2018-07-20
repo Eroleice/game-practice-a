@@ -1,0 +1,12 @@
+{
+  "name": "game-practice-a",
+  "version": "0.0.0",
+  "description": "game-practice-a",
+  "main": "server.js",
+  "author": {
+    "name": "Oliver"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

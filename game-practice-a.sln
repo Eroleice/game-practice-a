@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "game-practice-a", "game-practice-a\game-practice-a.njsproj", "{2E9033C7-799B-42A8-9685-40FAC3CF1FB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E9033C7-799B-42A8-9685-40FAC3CF1FB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E9033C7-799B-42A8-9685-40FAC3CF1FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E9033C7-799B-42A8-9685-40FAC3CF1FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E9033C7-799B-42A8-9685-40FAC3CF1FB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5391808B-7809-4458-A960-70FB7F905248}
+	EndGlobalSection
+EndGlobal
