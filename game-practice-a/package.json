@@ -6,7 +6,9 @@
   "author": {
     "name": "Oliver"
   },
+  "repository": "https://github.com/Eroleice/game-practice-a.git",
   "dependencies": {
     "express": "^4.16.3"
-  }
+  },
+  "license": "MIT"
 }

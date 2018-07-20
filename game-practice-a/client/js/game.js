@@ -31,21 +31,22 @@ function onAssetsLoaded()
      * An AnimatedSprite inherits all the properties of a PIXI sprite
      * so you can change its position, its anchor, mask it, etc
      */
-    
     anim.x = app.screen.width / 2;
     anim.y = app.screen.height / 2;
     anim.anchor.set(0.5);
     let k = (app.screen.height / 2) / 868;
-    anim.scale.x = k;
-    anim.scale.y = k;
+    anim.scale.set(k);
     anim.animationSpeed = 0.4;
     anim.play();
+    console.log(anim);
 
     app.stage.addChild(anim);
 
+    let s = 0;
     // Animate the rotation
-    app.ticker.add(function(delta) {
-        // anim.rotation += 0.01 * delta;
+    app.ticker.add(function (delta) {
+        s += 0.1;
+        anim.y = app.screen.height * (0.5 + 0.1 * Math.cos(s));
     });
 }
 
@@ -56,6 +57,5 @@ function resize() {
     anim.x = app.screen.width / 2;
     anim.y = app.screen.height / 2;
     let k = (app.screen.height / 2) / 868;
-    anim.scale.x = k;
-    anim.scale.y = k;
+    anim.scale.set(k);
 }
